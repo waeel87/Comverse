@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/waeel87/Comverse/issues"
   },
-  "homepage": "https://github.com/waeel87/Comverse"
+  "homepage": "https://github.com/waeel87/Comverse",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
 }
