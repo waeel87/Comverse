@@ -702,8 +702,12 @@ ul.footer-list {
 ul.footer-list > li{
     float: left;
 
-    width: 33%;
+    width: 32%;
     list-style-type: none;
+    margin-right: 2%;
+}
+ul.footer-list > li:last-child {
+    margin-right:0px;
 }
 ul.footer-list > li > h5{
     font-size: 16px;
@@ -720,10 +724,13 @@ ul.footer-sub-list >li {
 }
 ul.footer-sub-list >li a {
     color: #c3c3c3;
+    font-size: 90%;
 }
 .copyright {
     color: #c3c3c3;
     font-size: 86%;
+    float: left;
+    margin-top: 20px;
 }
 
 ul.latest-blog-posts-list {
@@ -739,9 +746,18 @@ ul.latest-blog-posts-list {
 ul.latest-blog-posts-list li {
     list-style-type: none;
     border-bottom: 1px solid #999;
+    color: #fff;
+    font-size: 14px;
 }
 ul.latest-blog-posts-list li:last-child {
     border: 0px;
+}
+
+ul.latest-blog-posts-list li h5 {
+    color:#178BC4;
+    text-align: center;
+    font-size: 140%;
+    margin: 10px 0px;
 }
 /* ==========================================================================
    Helper classes
