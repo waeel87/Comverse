@@ -587,7 +587,7 @@ ul.what-happening-list > li .event-link.press-icon:hover:before {
 
 
 .success-stories-section {
-  height: 455px;
+  height: 470px;
   z-index: 5;
   background: #EBEBEB;
 }
@@ -601,6 +601,7 @@ ul.success-stories-list {
     width: 100%;
 
     display: table;
+    margin-bottom: 20px;
 }
 ul.success-stories-list > li {
 
@@ -615,9 +616,18 @@ ul.success-stories-list > li {
 .success-story {
     background: #fff;
 
-    margin-right: 1%;    margin-bottom: 1%;
+    margin-right: 2%;    
+    margin-bottom: 2%;
     padding: 3%;
     height: 185px;
+}
+.success-story:hover {
+    background-color: green;
+    cursor: pointer;
+    -webkit-transition: background-color 100ms ease-out 200ms;
+    -moz-transition: background-color 100ms ease-out 200ms;
+    -o-transition: background-color 100ms ease-out 200ms;
+    transition: background-color 100ms ease-out 200ms;
 }
 .success-story > .success-story-image {
 
@@ -632,9 +642,9 @@ ul.success-stories-list > li {
 
     width: 60%;
 
-    margin-left: 5%;
+    margin-left: 3%;
 
-    font-size: 16px;
+    font-size: 15px;
 
     line-height: 25px;
 
@@ -663,9 +673,9 @@ ul.success-stories-list > li {
 .success-story-logos .success-story-logo-container {
     background: #fff;
 
-    margin-right: 1%;
-    margin-bottom: 1%;
-    width: 32.3%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    width: 31.3%;
     float: left;
     text-align: center;
 }
@@ -677,8 +687,62 @@ ul.success-stories-list > li {
 
 }
 
+.footer-section {
+        background: #444;
+        padding: 0;
+}
+ul.footer-list {
+    width: 70%;
 
+    display: table;
+    float: left;
+    margin: 0px;
+    padding: 20px 0px;
+}
+ul.footer-list > li{
+    float: left;
 
+    width: 33%;
+    list-style-type: none;
+}
+ul.footer-list > li > h5{
+    font-size: 16px;
+
+    margin-bottom: 10px;
+    color: #c3c3c3;
+    margin-top: 0px;
+}
+ul.footer-sub-list {
+
+}
+ul.footer-sub-list >li {
+    list-style-type: none;
+}
+ul.footer-sub-list >li a {
+    color: #c3c3c3;
+}
+.copyright {
+    color: #c3c3c3;
+    font-size: 86%;
+}
+
+ul.latest-blog-posts-list {
+    display: table;
+    
+    float: right;
+    width: 30%;
+    margin: 0px;
+    background: #666;
+    padding: 10px 20px;
+}
+
+ul.latest-blog-posts-list li {
+    list-style-type: none;
+    border-bottom: 1px solid #999;
+}
+ul.latest-blog-posts-list li:last-child {
+    border: 0px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
