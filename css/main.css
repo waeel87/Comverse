@@ -267,12 +267,11 @@ form.search-form .search-form-submit-btn {
     height: 639px;            
     position: relative;
     z-index: 5;
+    background: url('../img/slide-bg-complexity.jpg') no-repeat 50% 0px fixed;
 }
 
 section#main {
-    min-width: 960px;
-    background: url('../img/slide-bg-complexity.jpg') no-repeat 50% 0px;        
-    z-index: -999;
+    min-width: 960px;        
 }
 
 .slider {
