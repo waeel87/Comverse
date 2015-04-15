@@ -586,6 +586,99 @@ ul.what-happening-list > li .event-link.press-icon:hover:before {
   }
 
 
+.success-stories-section {
+  height: 455px;
+  z-index: 5;
+  background: #EBEBEB;
+}
+.success-stories-section h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #5F5F5D;
+    font-weight: normal;
+}
+ul.success-stories-list {
+    width: 100%;
+
+    display: table;
+}
+ul.success-stories-list > li {
+
+    display: inline-block;
+    
+
+    width: 33%;
+
+    vertical-align: top;
+
+}
+.success-story {
+    background: #fff;
+
+    margin-right: 1%;    margin-bottom: 1%;
+    padding: 3%;
+    height: 185px;
+}
+.success-story > .success-story-image {
+
+    display: inline-block;
+}
+.success-story > .success-story-title {
+    
+
+    margin: 0px;
+
+    display: inline;
+
+    width: 60%;
+
+    margin-left: 5%;
+
+    font-size: 16px;
+
+    line-height: 25px;
+
+    float: right;
+}
+.success-story > .success-story-subtitle {
+    clear: both;
+
+    border-top: 1px solid #eaeaea;
+    padding: 7px 0px;
+    margin-top: 15px;
+}
+.success-story > .success-story-subtitle a {
+    color: #4DADDB;
+    
+}
+.success-story > .success-story-subtitle p {
+    margin: 0px;
+    
+}
+.success-story-logos {
+    width: 100%;
+
+    display: table;
+}
+.success-story-logos .success-story-logo-container {
+    background: #fff;
+
+    margin-right: 1%;
+    margin-bottom: 1%;
+    width: 32.3%;
+    float: left;
+    text-align: center;
+}
+.success-story-logos .success-story-logo-container:last-child {
+    margin-right:0px;
+}
+.success-story-logos .success-story-logo-container img {
+    max-width: 100%;
+
+}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
