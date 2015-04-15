@@ -404,12 +404,12 @@ ul.boxes-list > .boxes-list-item > .boxes-list-item-read-more:before {
 
 ul.what-can-we-do {
     text-align: center;
-    margin: 50px 0px;
+    margin: 45px 0px;
 }
 ul.what-can-we-do > li {
     display: inline-block;
 
-    max-width: 16.5%;
+    max-width: 16%;
     vertical-align: top;
 }
 ul.what-can-we-do > li  .what-can-we-do-img {
@@ -464,7 +464,106 @@ ul.what-can-we-do > li a {
 
 
 
+.what-happening {
+  height: 455px;
+  z-index: 5;
+  background: url('../img/news-and-events-bg.jpg') no-repeat 50% 0px;
+}
+.what-happening h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    font-weight: normal;
+}
 
+ul.what-happening-list {
+    text-align: center;
+    margin: 45px 0px;
+}
+ul.what-happening-list > li {
+    display: inline-block;
+
+    max-width: 30%;
+    vertical-align: top;
+    margin-right: 3%;
+}
+ul.what-happening-list > li:last-child {
+    margin-right:0px;
+}
+ul.what-happening-list > li .event-header {
+    color: #fff;
+    
+    text-align: left;
+    font-size: 200%;
+    margin-bottom: 10px;
+    float: left;
+    font-weight: 100;
+}
+ul.what-happening-list > li .event-item {
+    background-color: rgba(255, 255, 255, 0.4);
+
+    height: 120px;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 80px;
+}
+ul.what-happening-list > li .event-item .event-date {
+    float: left;
+    width: 23%;
+    display: block;                
+    box-shadow: 0px 1px 1px 0px #333;
+}
+ul.what-happening-list > li .event-item .event-date span{
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    line-height: 37px;
+    background-color: #3399CB;
+}
+ul.what-happening-list > li .event-item .event-date span:first-child{
+    border-bottom: 1px dashed #fff;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 60px;
+}
+ul.what-happening-list > li .event-item .event-description {
+    text-align: left;
+
+    float: left;
+    width: 73%;
+    margin-left: 4%;
+    vertical-align: top;
+}
+ul.what-happening-list > li .event-link {
+    color: #fff;
+    float: left;
+    margin-top: 10px;
+}
+ul.what-happening-list > li .event-link:before {
+    content: "";
+  background: url('../img/eventListIconNews.png');
+  display: block;
+  width: 24px;
+  height: 19px;
+  float: left;
+  margin: auto 5px;
+  background-size: 100%;
+  background-position: 50% 50%;
+}
+
+ul.what-happening-list > li .event-link.calendar-icon:before {
+  background: url('../img/eventListIconEvents.png');
+  
+  
+    width: 19px;
+  
+    height: 22px;
+  
+  
+  
+  
+  margin-top: -3px;
+}
 
 
 /* ==========================================================================
